@@ -38,7 +38,7 @@ The core functionality of the project is considered completed. However, ongoing 
 
 ## Project Access
 
-You can access the deployed project on [Weather App](https://weather-app-vs2.netlify.app). Alternatively, you have the option to clone the project and run it locally using the command `npm install`.
+You can access the deployed project on [Weather App](https://weather-app-vll.netlify.app). Alternatively, you have the option to clone the project and run it locally using the command `npm install`.
 
 ## Developer
 
