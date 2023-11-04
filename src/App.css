@@ -1,0 +1,49 @@
+.img-bg {
+  /* background-image: url("/public/images/backgrounds-images/01-clear-sky.jpg"); */
+  background-image: url("/public/images/backgrounds/02-few-clouds.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.clear-bg {
+  background-image: url("/public/images/backgrounds/01-clear-sky.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.clouds-bg {
+  background-image: url("/public/images/backgrounds/03-scattered-clouds.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.rain-bg {
+  background-image: url("/public/images/backgrounds/06-rain.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.thunderstorn-bg {
+  background-image: url("/public/images/backgrounds/07-thunderstorn.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.snow-bg {
+  background-image: url("/public/images/backgrounds/08-snow.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.mist.bg {
+  background-image: url("/public/images/backgrounds/09-mist.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
