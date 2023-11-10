@@ -7,11 +7,13 @@ import {
   presionD,
   presion,
 } from "./../utils/index";
+import Layout from "../layout/Layout";
+import LineMargin from "../layout/LineMargin";
 
 const WeatherMain = ({ weatherInfo, isDark }) => {
   return (
     <>
-      <article className="flex gap-1 items-center dark:text-white">
+      <Layout>
         <div>
           <img className="sm:w-7" src={isDark ? vientoD : viento} alt="" />
         </div>
@@ -19,20 +21,20 @@ const WeatherMain = ({ weatherInfo, isDark }) => {
           {weatherInfo?.wind.speed}
           m/s
         </span>
-      </article>
+      </Layout>
 
-      <div className="w-[1px] h-9 sm:w-28 sm:h-[1px] bg-black/70 dark:bg-white"></div>
+      <LineMargin />
 
-      <article className="flex gap-1 items-center dark:text-white">
+      <Layout>
         <div>
           <img className="sm:w-7" src={isDark ? humedadD : humedad} alt="" />
         </div>
         <span className="sm:text-xl">{weatherInfo?.main.humidity}%</span>
-      </article>
+      </Layout>
 
-      <div className="w-[0.7px] h-9 sm:w-28 sm:h-[1.3px] bg-black/70  dark:bg-white"></div>
+      <LineMargin />
 
-      <article className="flex gap-1 items-center dark:text-white">
+      <Layout>
         <div>
           <img className="sm:w-7" src={isDark ? presionD : presion} alt="" />
         </div>
@@ -40,7 +42,7 @@ const WeatherMain = ({ weatherInfo, isDark }) => {
           {weatherInfo?.main.pressure}
           hPa
         </span>
-      </article>
+      </Layout>
     </>
   );
 };
